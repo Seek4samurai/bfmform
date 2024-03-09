@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Label {
+  font-size: 16px;
+}
+
+.inputStyle {
+  height: 45px;
+  width: 30px !important;
+  font-size: 16px;
+  margin: 10px 4px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.Resend {
+  font-size: 14px;
+  color: rgba(68, 97, 242, 1);
+  margin-bottom: 10px;
+}

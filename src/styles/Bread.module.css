@@ -1,0 +1,55 @@
+.Container {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 210px;
+  width: fit-content;
+  border-radius: 15px;
+  padding: 0.2rem;
+  background-color: rgba(217, 217, 217, 0.44);
+}
+
+.ActiveIndex {
+  /* padding: 0.5rem; */
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(74, 58, 255, 1);
+}
+
+.Index {
+  /* padding: 0.5rem; */
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.Steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 210px;
+  width: fit-content;
+  padding: 0.2rem;
+  margin-left: 40px;
+}
+
+.Text {
+  font-weight: 600;
+}
+
+.Check {
+  object-fit: contain;
+}
+
+.UnvisitedIndex {
+  padding: 0.5rem;
+}

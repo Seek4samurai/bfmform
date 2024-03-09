@@ -1,0 +1,136 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+
+.Center {
+  display: flex;
+  width: 1920px;
+}
+
+.Wrapper {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Page {
+  margin-left: 20px;
+}
+
+.Header {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.Subtext {
+  width: 580px;
+  font-size: 16px;
+  color: rgba(102, 102, 102, 1);
+  margin-bottom: 20px;
+}
+
+.NumberField {
+  display: flex;
+  flex-direction: column;
+}
+
+.NumberField label {
+  color: rgba(64, 77, 97, 1);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.NumberField input {
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: 1px solid rgba(225, 227, 230, 1);
+  border-radius: 8px;
+}
+
+.Btn {
+  width: 440px;
+}
+
+.otp-container {
+  display: flex;
+}
+
+.otp-input {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.otp-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.TextField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.Label {
+  font-size: 18px;
+  color: rgba(64, 77, 97, 1);
+  margin-bottom: 10px;
+}
+.TextInput {
+  width: 500px;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid rgba(225, 227, 230, 1);
+  padding: 6px 15px;
+  font-size: 16px;
+}
+.Dropdown {
+  width: 530px;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid rgba(225, 227, 230, 1);
+  padding: 6px 15px;
+  font-size: 16px;
+}
+
+.TagsContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 6px;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+.Tag {
+  width: fit-content;
+  padding: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(68, 97, 242, 1);
+  background-color: rgba(236, 239, 254, 1);
+  border: solid 1px rgba(197, 206, 251, 1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.Remove {
+  cursor: pointer;
+  margin-right: 3px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(68, 97, 242, 1);
+}
